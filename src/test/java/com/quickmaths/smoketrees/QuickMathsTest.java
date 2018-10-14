@@ -11,8 +11,20 @@ public class QuickMathsTest {
     }
 
     @Test
-    public void canAddTwoPlusThree() {
+    public void canAddTwoPlusTwoMinusOne() {
         int answer = 2+2-1;
         assertEquals("2+2-1=3", 3, answer);
+    }
+
+    @Test
+    public void canSubTwoFromThree() {
+        int answer = 3-2;
+        assertEquals("3-2=1", 1, answer);
+    }
+
+    @Test
+    public void canDivideSixByThree() {
+        int answer = 6/3;
+        assertEquals("6/3=2", 2, answer);
     }
 }
