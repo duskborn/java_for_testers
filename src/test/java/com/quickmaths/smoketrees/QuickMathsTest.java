@@ -17,9 +17,9 @@ public class QuickMathsTest {
     }
 
     @Test
-    public void canSubTwoFromThree() {
-        int answer = 3-2;
-        assertEquals("3-2=1", 1, answer);
+    public void canMultiplyTwoBySix() {
+        int answer = 2*6;
+        assertEquals("2*6=12", 12, answer);
     }
 
     @Test
